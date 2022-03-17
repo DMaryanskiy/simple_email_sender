@@ -25,5 +25,6 @@ A simple page with notification that email was sent to all recipents. Their addr
 2. Create a virtual environment with `python -m venv venv`.
 3. Activate it using `./venv/Scripts/activate`.
 4. Install requirements with `pip install -r requirements.txt`.
-5. Change your directory to `email_sender` using `cd email_sender`.
-6. Launch application with `python manage.py runserver` and follow the link `http://127.0.0.1:8000`.
+5. In `settings.py` find `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD`. Then change their values to your email account and email/application password.
+6. Change your directory to `email_sender` using `cd email_sender`.
+7. Launch application with `python manage.py runserver` and follow the link `http://127.0.0.1:8000`.
