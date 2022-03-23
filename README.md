@@ -28,3 +28,8 @@ A simple page with notification that email was sent to all recipents. Their addr
 5. In `settings.py` find `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD`. Then change their values to your email account and email/application password.
 6. Change your directory to `email_sender` using `cd email_sender`.
 7. Launch application with `python manage.py runserver` and follow the link `http://127.0.0.1:8000`.
+
+## Technology stack
+
+1. Python 3.9.4
+2. Django 4.0.3
